@@ -4,6 +4,7 @@
 int main(int argc, char const *argv[]) {
   int opcao;
 
+// Nicoleti é boi
   /* Aqui fica a função de login e loading de dados!*/
 
 
