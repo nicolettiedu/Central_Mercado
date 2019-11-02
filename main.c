@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <menu.h>
+#include "menu.h"
 
 int main(int argc, char const *argv[]) {
   int opcao;
@@ -13,21 +13,21 @@ int main(int argc, char const *argv[]) {
     opcao=menu();
     switch (opcao) {
       case 1:
-      central_vendas();
+      //central_vendas();
       break;
 
       case 2:
-      controle_estoque();
+      //controle_estoque();
       break;
 
       case 3:
-      financeiro();
+      //financeiro();
       break;
 
       case 4:
-      sair();
+      //sair();
       break;
-      
+
     }
   }
   return 0;
