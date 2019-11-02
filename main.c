@@ -11,7 +11,22 @@ int main(int argc, char const *argv[]) {
     system("cls");
     opcao=menu();
     switch (opcao) {
-      case /* value */:
+      case 1:
+      central_vendas();
+      break;
+
+      case 2:
+      controle_estoque();
+      break;
+
+      case 3:
+      financeiro();
+      break;
+
+      case 4:
+      sair();
+      break;
+      
     }
   }
   return 0;
