@@ -1,15 +1,21 @@
 #include <stdio.h>
-#include "menu.h"
+#include <stdlib.h>
+
+#define ICMS = 1,17;
+
+#include "main_bib.h"
+#include "financeiro.h"
+
 
 int main(int argc, char const *argv[]) {
   int opcao;
+  float caixa,lucro;
 
-// Nicoleti é boi
   /* Aqui fica a função de login e loading de dados!*/
 
 
   while(opcao!=4){
-    system("cls");
+    clear();
     opcao=menu();
     switch (opcao) {
       case 1:
@@ -21,7 +27,7 @@ int main(int argc, char const *argv[]) {
       break;
 
       case 3:
-      //financeiro();
+      financeiro();
       break;
 
       case 4:
