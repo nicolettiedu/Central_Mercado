@@ -8,7 +8,7 @@ int main(int argc, char const *argv[]) {
   /* Aqui fica a função de login e loading de dados!*/
 
 
-  for(;;){
+  while(opcao!=4){
     system("cls");
     opcao=menu();
     switch (opcao) {
@@ -29,6 +29,7 @@ int main(int argc, char const *argv[]) {
       break;
 
     }
+
   }
   return 0;
 }
