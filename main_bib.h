@@ -1,7 +1,12 @@
 
+void pause(){
+  printf("\n Aperte ENTER para continuar ...");
+  getchar();
+}
+
 void clear(){
-  //system('clear');
   system("cls");
+  system("clear");
 }
 
 int menu(){

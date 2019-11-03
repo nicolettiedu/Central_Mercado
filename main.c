@@ -23,7 +23,7 @@ int main(int argc, char const *argv[]) {
       break;
 
       case 2:
-      //controle_estoque();
+      controle_estoque();
       break;
 
       case 3:
