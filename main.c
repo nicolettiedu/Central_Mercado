@@ -1,16 +1,18 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#define ICMS = 1.17;
+#define ICMS 1.17;
+#define NUMERO_MERCADORIA 500
 
 #include "main_bib.h"
 #include "financeiro.h"
+#include "estoque.h"
 
 
 int main(int argc, char const *argv[]) {
   int opcao;
   float caixa= 500.50 ,lucro=100.2;
-
+  estoque produtos[NUMERO_MERCADORIA];
   /* Aqui fica a função de login e loading de dados!*/
 
 
